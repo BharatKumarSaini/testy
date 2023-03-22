@@ -1,0 +1,1425 @@
+@media (prefers-color-scheme: dark) {
+
+    ion-footer ion-list.list-md,
+    ion-footer ion-list ion-item {
+        background-color: #fff;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    /* Tenants pay rents start  */
+    .tenants-lease-payment-info ion-row {
+        align-items: center;
+    }
+
+    /* Tenants pay rents end  */
+
+}
+
+
+@media (min-width: 992px) {
+    .dashboard-content .ion-page {
+        left: auto;
+        right: auto;
+        position: relative;
+        overflow: visible;
+        height: 100%;
+        top: auto;
+        bottom: auto;
+    }
+
+    .dashboard-content .ion-page .ion-page {
+        /* left: 22px; */
+        /* right: 22px; */
+        padding: 0 22px;
+    }
+
+    /* Notification popup start  */
+    .notification-popup .popover-content {
+        top: 63px !important;
+    }
+
+    .notification-popup .popover-arrow {
+        display: none;
+    }
+
+    /* Notification popup end  */
+}
+
+
+@media (max-width: 1366px) {
+
+    /* Tenants Dahsboard posts start  */
+    .tenant-dhaboard-button-list ion-col:nth-child(2n) {
+        padding-left: 15px;
+    }
+
+    .tenant-dhaboard-button-list ion-col:nth-child(2n+1) {
+        padding-right: 15px;
+    }
+
+    /* Tenants Dahsboard posts end  */
+
+}
+
+
+@media (max-width: 1199px) {
+
+    /* Lease info css start */
+    .lease-code-info .button.button-solid {
+        font-size: 14px;
+    }
+
+    /* Lease info css end */
+
+    /* Manage rents css start  */
+    .dashboard-content-inner {
+        padding: 0 20px 15px;
+    }
+
+    body .tenants-rent-details-card .button.button-outline {
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    body .tenants-rent-details-card .button+.button {
+        margin-left: 10px;
+    }
+
+    /* Manage rents css end  */
+
+    /* Tenant Dahsboard posts start  */
+    .tenants-dashboard ion-segment-button {
+        font-size: 17px;
+        --padding-start: 30px;
+        --padding-end: 30px;
+    }
+
+    .tenant-dhaboard-button-list ion-col:nth-child(2n) {
+        padding-left: 5px;
+    }
+
+    .tenant-dhaboard-button-list ion-col:nth-child(2n+1) {
+        padding-right: 5px;
+    }
+
+    .lease-code-confirm-button {
+        text-align: center;
+    }
+
+    /* Tenant Dahsboard posts end  */
+
+    /* Tenants pay rents start  */
+    .rent-pay-buttons .button.button-round {
+        width: 46%;
+        height: 100%;
+        --border-radius: 12px;
+        --padding-start: 5px;
+        --padding-end: 5px;
+    }
+
+    /* Tenants pay rents end  */
+
+
+    .header-page-title {
+        display: inline-block;
+        position: relative;
+        left: auto;
+        right: auto;
+        text-align: center;
+        flex: 0 0 100%;
+        order: 4;
+        margin: 14px 0;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+
+    /* header css start */
+    .inner-main-header {
+        padding: 5px 16px;
+        background-color: #FFFEFA;
+    }
+
+    .apart-logo {
+        display: inline-block;
+        margin: 0 auto;
+        justify-self: center;
+    }
+
+    .change-property {
+        /* margin-left: auto; */
+        --padding-start: 0;
+        --padding-end: 0;
+    }
+
+    .inner-main-header::before,
+    .dashboard-sidebar:before {
+        width: 46px;
+        height: 2px;
+        background: linear-gradient(to right, rgba(128, 128, 128, 1) 0%, rgba(128, 128, 128, 0.9) 50%, rgba(128, 128, 128, 0.8) 100%);
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+        border-radius: 2px;
+    }
+
+    .change-property .proerty-name {
+        bottom: -9px;
+        margin-left: -6px;
+    }
+
+    .header-page-title:empty {
+        display: none;
+    }
+
+    .button.button-clear.hide-logo {
+        display: none;
+    }
+
+    body .button.back-buton,
+    body .button.button-clear {
+        z-index: 1;
+    }
+
+    body .inner-main-header .button.account-button {
+        display: block !important;
+        bottom: 0;
+        position: fixed;
+        margin: auto;
+        right: 5px;
+    }
+
+    /* header css end */
+
+    /* footer css start */
+    ion-footer {
+        background-color: #EFEFEF;
+        padding: 5px 0;
+    }
+
+    body ion-footer .button.button-clear {
+        height: 100%;
+        margin: 0;
+    }
+
+    .footer-bottom-col {
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .footer-notification-button ion-icon {
+        font-size: 25px;
+    }
+
+    .footer-home-button ion-icon {
+        font-size: 25px;
+    }
+
+    .footer-message-button ion-icon {
+        font-size: 30px;
+        position: relative;
+        top: 3px;
+    }
+
+    body .button.button-clear.scroll-to-bottom-btn {
+        bottom: 65px;
+    }
+
+    /* footer css end */
+
+    /* Management Dashboard css start */
+    .dashboard-wrapper {
+        background-color: #fcfcfc;
+        --background: #fcfcfc;
+    }
+
+    .dashboard-wrapper .dashboard-main-grid {
+        padding-bottom: 60px;
+    }
+
+    .dashboard-content {
+        order: 1;
+    }
+
+    .dashboard-sidebar {
+        order: 2;
+        margin-top: 25px;
+        background-color: #fcfcfc;
+    }
+
+    .dashboard-wrapper .dashboard-main-row>ion-col.dashboard-sidebar {
+        padding: 10px 15px 50px;
+        position: relative;
+    }
+
+    .dashboard-sidebar:before {
+        bottom: auto;
+        top: 0;
+    }
+
+    .dashboard-wrapper .dashboard-main-row>ion-col {
+        padding: 0 16px;
+    }
+
+    .dashboard-wrapper .sidebar-menu-list {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        margin: 0 -17.5px;
+    }
+
+    .dashboard-sidebar ion-item {
+        flex: 33.33%;
+        max-width: 33.33%;
+        --background: #fff;
+        --border-width: 1px;
+        --border-color: #7c7c7c;
+        --border-radius: 12px;
+        padding: 0 17.5px;
+    }
+
+    body .button.dashboard-button {
+        /* padding: 5px 15px;
+        --padding-start: 0;
+        --padding-end: 0; */
+        min-height: 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dashboard-button-inner {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: auto;
+    }
+
+    .dashboard-button ion-avatar {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .item .dashboard-button .dashboard-button-label {
+        text-align: center;
+    }
+
+    .change-property-popup .popover-content {
+        top: 70px !important;
+        left: auto !important;
+        right: 19px;
+    }
+
+    .change-property-popup .popover-arrow {
+        display: none;
+    }
+
+    .change-property-popup {
+        --width: 50vw;
+    }
+
+    .property-list-item {
+        background-size: cover;
+    }
+
+    .change-property-popup .popover-content:before {
+        right: 35px;
+    }
+
+    /* Management Dashboard css close */
+
+    /* Manage properties css start */
+    .manage-property-wrapper .dashboard-sidebar,
+    .add-proepry-wrapper .dashboard-sidebar,
+    .manage-tenants-wrapper .dashboard-sidebar,
+    .lease-info-wrapper .dashboard-sidebar,
+    .manage-tenants-wrapper .dashboard-posts {
+        display: none;
+    }
+
+    ion-note {
+        font-size: 16px;
+    }
+
+    .dashboard-wrapper .dashboard-main-grid.manage-property-wrapper {
+        position: static;
+    }
+
+    body .button.button-clear.property-change-button {
+        bottom: 70px;
+        right: 10px;
+    }
+
+
+    /* Manage properties css end */
+
+    /* Manage tenants css start  */
+    /* .manage-tenants-wrapper {
+        --padding-top: 0;
+    } */
+    .dashboard-content .ion-page .ion-page {
+        padding: 0;
+        background-color: #fcfcfc;
+    }
+
+    ion-tab-button ion-label {
+        font-size: 17px;
+        color: #575757;
+    }
+
+    .tab-content {
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    .requires-renewal-proposal-block .title-with-line {
+        /* color: #575757; */
+        font-size: 16px;
+    }
+
+    .tab-content .apartments-list-block ion-grid {
+        padding: 0 35px;
+    }
+
+    .tab-content .button h2 {
+        margin: 10px 0 0;
+    }
+
+    ion-tab-button {
+        border-bottom: 1px solid #CCE0F0;
+    }
+
+    /* Manage tenants css end  */
+
+    /* Manage tenants css start  */
+    .dashboard-content-inner {
+        background-color: transparent;
+        padding: 0 0 15px;
+    }
+
+    /* Manage tenants css end  */
+
+    /* Lease info css start */
+    .lease-info-wrapper .dashboard-main-row>ion-col {
+        padding: 0;
+    }
+
+    .lease-info-wrapper .dashboard-main-row>ion-col.dashboard-content {
+        padding-bottom: 30px;
+    }
+
+    .tenant-lease-details-card {
+        margin: 30px 15px 0;
+    }
+
+    /* Lease info css end */
+
+    /* Tenant Dahsboard posts start  */
+    .tenants-dashboard ion-segment-button {
+        font-size: 20px;
+        --padding-start: 38px;
+        --padding-end: 38px;
+    }
+
+    body .button.button-clear.post-add-button {
+        bottom: 70px;
+
+    }
+
+    body .button.button-clear.post-add-button.tenant-dashboard-post {
+        bottom: 50%;
+        position: fixed;
+        margin-right: -12vw;
+    }
+
+
+
+    /* Tenant Dahsboard posts end  */
+
+    /* Tenants choose payment method start */
+    .rent-pay-summary,
+    .choose-payment-method-block {
+        padding: 15px;
+    }
+
+    /* Tenants choose payment method end */
+
+    /* Manage Posts start */
+    .manage-posts-wrapper {
+        padding: 15px 20px;
+    }
+
+    body .manage-posts-wrapper .button.button-clear.property-change-button {
+        bottom: 65px;
+        right: 10px
+    }
+
+    .dashboard-content-inner.create-posts-wrapper {
+        padding: 15px;
+    }
+
+    /* Manage Posts end */
+
+    /* Notification popup start  */
+    .sc-ion-popover-ios-h.notification-popup {
+        --width: 95vw;
+        --max-height: 85%;
+    }
+
+    body .button.notification-button {
+        position: fixed;
+        bottom: 10px;
+        display: block !important;
+        left: 22px;
+    }
+
+    .notification-popup .popover-content:after {
+        display: none;
+    }
+
+    .notification-popup .popover-content:before {
+        top: auto;
+        bottom: -2px;
+        left: 30px;
+        right: auto;
+        width: 26px;
+    }
+
+    .notification-popup .popover-arrow::after {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #C0C0C0;
+    }
+
+    .notification-popup .popover-arrow {
+        width: 35px;
+    }
+
+    .popover-bottom.sc-ion-popover-ios-h.notification-popup .popover-arrow.sc-ion-popover-ios::after {
+        top: -10px;
+    }
+
+    /* Notification popup end  */
+
+    /* Post details strat  */
+    .swipe-slider {
+        width: 70%;
+
+    }
+
+    /* Post details end  */
+
+    /* My Account start  */
+    .my-account-content .dashboard-content-inner,
+    .services-settings .dashboard-content-inner {
+        padding: 30px 20px;
+    }
+
+    /* My Account end  */
+}
+
+
+
+@media (min-width: 425px) {
+    body .button.button-clear.property-change-button {
+        right: 15%;
+    }
+}
+
+@media (min-width : 991px) {
+    body .button.button-clear.property-change-button {
+        right: 28%;
+
+       
+    }
+
+    .messaging-button {
+        top: 40vh;
+    }
+}
+
+@media (min-width : 1440px) {
+
+    body .button.button-clear.property-change-button {
+        right: 28%;
+        top: calc(25vw - 8vh);
+    }
+}
+
+@media (max-width : 769px) {
+    .manage-properties {
+        /* overflow: scroll; */
+        padding-bottom: 10px !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+
+
+
+
+
+    /* header css start */
+    .logo {
+        max-width: 36vw;
+    }
+
+    /* header css close */
+
+    /* Management Dashboard css start */
+    .dashboard-sidebar ion-item {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    /* Management Dashboard css close */
+
+    /* Tenant Dahsboard posts start  */
+    .post-title {
+        font-size: 17px;
+    }
+
+    /* Tenant Dahsboard posts end  */
+
+    /* Tenants choose payment method start */
+    .choose-payment-method-block ion-segment-button+ion-segment-button {
+        margin-left: 15px;
+    }
+
+    .choose-payment-method-block ion-segment-button {
+        --padding-start: 25px;
+        --padding-end: 25px;
+        flex: 0 0 auto;
+    }
+
+    .credit-card-details {
+        padding: 30px 15px;
+    }
+
+    .credit-card-details>ion-col:first-child {
+        padding-right: 15px;
+    }
+
+    .default-payment-method-checkbox,
+    .payment-method-cofirm-method {
+        text-align: center;
+    }
+
+    /* Tenants choose payment method end */
+
+    /* Manage Posts start */
+    .post-date {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        font-size: 10px;
+        display: block;
+        text-align: right;
+    }
+
+    /* Manage Posts end */
+
+    /* Post details strat  */
+    .post-main-image-slider .swiper-slide {
+        height: 300px;
+    }
+
+    body .button.button-outline.message-poster-button {
+        font-size: 15px;
+    }
+
+    body .button.button-outline.message-poster-button span {
+        width: 65px;
+    }
+
+    /* Post details end  */
+
+    /* Messaging start  */
+    .message-list .post-content {
+        padding-top: 10px;
+    }
+
+    .message-list .post-title {
+        margin: 0 0 5px;
+    }
+
+    .dashboard-content .message-list p.post-date {
+        bottom: 0;
+    }
+
+    /* Messaging end  */
+
+    /* Manage Request start  */
+    .request-details-col {
+        padding: 15px 10px;
+    }
+
+    .request-details-col p {
+        font-size: 15px;
+    }
+
+    /* Manage Request end  */
+    .dashboard-wrapper.tenants-dashboard .dashboard-main-row>ion-col,
+    .tenants-dashboard .dashboard-content-inner {
+        position: static;
+    }
+
+    .enter-lease-code-card {
+        /* position: relative; */
+        bottom: auto;
+        top: 50vh;
+        overflow-x: hiddne;
+        overflow-y: auto;
+        height: 100vh;
+    }
+}
+
+@media (max-width : 426px) {
+    .my-absolute-button {
+        bottom: 12% !important;
+        right: 15% !important;
+    }
+
+}
+
+
+
+@media (min-width :530px) {
+    body .button.button-clear.post-add-button.tenant-dashboard-post {
+
+        margin-right: -5vw;
+    }
+}
+
+@media (min-width :600px) {
+    body .button.button-clear.post-add-button.tenant-dashboard-post {
+        margin-right: -6vw;
+        bottom: 16vh;
+    }
+}
+
+@media (min-width :700px) {
+    body .button.button-clear.post-add-button.tenant-dashboard-post {
+        margin-right: -6vw;
+        bottom: 55%;
+    }
+}
+
+@media (min-width :991px) {
+    body .button.button-clear.post-add-button.tenant-dashboard-post {
+        bottom: 65vh;
+        margin-right: -5vw;
+    }
+}
+
+@media (min-width :1020px) {
+    body .button.button-clear.post-add-button.tenant-dashboard-post {
+        bottom: 57vh;
+        margin-right: -5vw;
+    }
+}
+
+@media (min-width :1400px) {
+    body .button.button-clear.post-add-button.tenant-dashboard-post {
+        bottom: 23vh;
+        margin-right: -2vw;
+    }
+}
+
+
+@media (max-width: 767px) and (orientation : landscape) {
+
+    /* header css start */
+    .main-header {
+        padding: 15px 0;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+
+    /* header css close */
+}
+
+
+@media screen and (max-width: 575px) {
+
+    /* header css start */
+    .main-header {
+        border-radius: 0 0 10px 10px;
+        padding: 25px 0;
+    }
+
+    .header-page-title {
+        font-size: 20px;
+    }
+
+    /* header css close */
+
+    /* login css start */
+    body .button.button-block,
+    body .button.button-full,
+    body .button.button-solid,
+    body .button.button-outline {
+        font-size: 16px;
+        --padding-start: 15px;
+        --padding-end: 15px;
+    }
+
+    .login-form .password-field {
+        margin-top: 5px;
+    }
+
+    .login-form .forget-password {
+        margin-top: 0px;
+    }
+
+    .login-form .sign-up-btn,
+    .login-form .login-btn {
+        margin-top: 22px;
+    }
+
+    .login-form .gmail-btn {
+        margin-top: 12px;
+    }
+
+    /* login css end */
+
+    /* signup css start */
+    .user-select-item {
+        --padding-start: 20px;
+        --padding-end: 20px;
+    }
+
+    .user-select-item ion-label p {
+        max-width: 214px;
+    }
+
+    .signup-form ion-radio-group ion-item {
+        --min-height: 105px;
+    }
+
+    div#g-recaptcha {
+        transform-origin: 0 0 0;
+        transform: scale(0.9);
+    }
+
+    /* signup css end */
+
+    /* Management Dashboard css start */
+    .item .dashboard-button .dashboard-button-label {
+        font-size: 13px;
+    }
+
+    .change-property-popup {
+        --width: 90vw;
+    }
+
+    /* body .change-property-button.button {
+        margin-top: 25px;
+    } */
+    body .change-property-popup .button.button-block.button-solid,
+    body .change-property-popup .button.button-block.button.button-outline {
+        font-size: 12px;
+    }
+
+    /* .property-fab-button ion-fab-button {
+        width: 40px;
+        height: 40px;
+    } */
+    .property-fab-button ion-fab-button ion-icon {
+        font-size: 28px;
+    }
+
+    body .no-property-selected .change-property-button.button ion-icon {
+        font-size: 28px;
+    }
+
+    /* Management Dashboard css close */
+
+    /* Manage tenants css start */
+    .manage-tenants-wrapper .dashboard-main-grid {
+        margin-top: -15px;
+    }
+
+    .manage-tenants-wrapper .dashboard-main-row>ion-col {
+        padding: 0;
+    }
+
+    ion-tab-button,
+    ion-segment-button {
+        flex: 0 0 50%;
+        max-width: 100%;
+        --padding-start: 15px;
+        --padding-end: 15px;
+        align-items: center;
+    }
+
+    .apartments-list>ion-col {
+        padding: 10px 15px;
+    }
+
+    .tab-content .apartments-list .button.button-full {
+        --padding-top: 0;
+        --padding-bottom: 0;
+        --padding-start: 10px;
+        --padding-end: 10px;
+    }
+
+    .tab-content .apartments-list-block ion-grid {
+        padding: 0 10px;
+    }
+
+    .search-box ion-input.sc-ion-input-md-h {
+        margin: 0 15px;
+    }
+
+    .search-box ion-label {
+        font-size: 14px;
+    }
+
+    .lease-renewal ion-icon {
+        width: 100%;
+    }
+
+    .to-block {
+        padding: 0 15px;
+    }
+
+    /* Manage tenants css end */
+
+    /* Lease info css start */
+    .apartment-lease-code-info ion-label {
+        font-size: 14px;
+    }
+
+    body .native-input.sc-ion-input-md[readonly] {
+        font-size: 18px;
+    }
+
+    .lease-code-info .button.button-solid {
+        font-size: 13px;
+    }
+
+    .tenant-lease-details-card ion-card-title {
+        font-size: 18px;
+    }
+
+    .apartment-lease-code-info {
+        padding: 15px 10px;
+    }
+
+    .apartment-lease-code-info ion-col {
+        padding: 0 5px;
+    }
+
+    ion-input.width-50,
+    .width-50 {
+        width: 100px;
+    }
+
+    ion-input.width-25,
+    .width-25 {
+        width: 80px;
+        text-align: center;
+    }
+
+    body .special-actions-card .button.button-outline {
+        margin: 5px;
+    }
+
+    .date-picker.width-50 {
+        width: 100%;
+    }
+
+    .lease-info .width-50 {
+        width: 100%;
+    }
+
+    /* Lease info css end */
+
+    /* Manage Rents css start */
+    .tenants-lease-payment-info h6,
+    .tenants-lease-payment-info p {
+        font-size: 14px;
+    }
+
+    .tenants-rent-details-card ion-card-header {
+        padding: 15px 10px;
+    }
+
+    .tenants-rent-details-card ion-card-content {
+        padding: 0 10px 15px;
+    }
+
+    body .tenants-rent-details-card .button.button-outline {
+        font-size: 14px;
+        margin: 5px;
+        --padding-start: 10px;
+        --padding-end: 10px;
+    }
+
+    body .tenants-rent-details-card .button+.button {
+        margin-left: 5px;
+    }
+
+    /* Manage Rents css end */
+
+    /* Tenant Dahsboard posts start  */
+    .dashboard-wrapper.tenants-dashboard .dashboard-main-row>ion-col {
+        padding: 0;
+    }
+
+    .tenants-dashboard .dashboard-main-grid {
+        margin-top: -15px;
+    }
+
+    .tenants-dashboard ion-segment-button {
+        font-size: 16px;
+        --padding-start: 15px;
+        --padding-end: 15px;
+        flex: 0 0 33.33%;
+    }
+
+    .posts-list-block {
+        margin: 10px 4px;
+    }
+
+    .post-row {
+        padding: 0px 5px;
+    }
+
+    .post-image {
+        flex: 0 0 105px;
+        max-width: 105px;
+        padding-right: 10px;
+    }
+
+    .post-content {
+        flex: 0 0 calc(100% - 105px);
+        max-width: calc(100% - 105px);
+    }
+
+    .dashboard-content p.post-date {
+        position: relative;
+        right: auto;
+        bottom: auto;
+    }
+
+    .post-price {
+        margin: 15px 0 0;
+    }
+
+    body .tenant-dhaboard-button-list .button.button-block {
+        --padding-start: 15px;
+        --padding-end: 15px;
+    }
+
+    .tenants-dashboard ion-segment-button .notification-count {
+        right: -7px;
+        top: -3px;
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+    }
+
+    body .button.button-clear.post-add-button-besides-tab {
+        flex: 0 0 33.33%;
+        --padding-end: 15px;
+        --padding-start: 15px;
+    }
+
+    .tab-button-wrap ion-segment {
+        flex: 0 0 66.66%;
+        overflow: hidden;
+        justify-content: space-around;
+    }
+
+    .tenants-dashboard .tab-button-wrap ion-segment-button {
+        flex: 0 0 50%;
+    }
+
+    /* Tenant Dahsboard posts end  */
+
+    /* Tenants choose payment method start */
+    .payment-method-wrapper h4 {
+        font-size: 16px;
+    }
+
+    /* Tenants choose payment method end */
+
+    /* Post details strat  */
+    .dashboard-content-inner.post-details {
+        margin-top: -13px;
+    }
+
+    .post-images-slider {
+        padding: 5px 0 15px;
+    }
+
+    .swipe-slider {
+        width: 100%;
+    }
+
+    .post-main-image-slider .swiper-slide {
+        height: 198px;
+    }
+
+    .main-post-image {
+        width: 100%;
+    }
+
+    .post-thumbnail-slider .swiper-wrapper {
+        justify-content: flex-start;
+        padding: 0 15px;
+    }
+
+    body .button.button-outline.message-poster-button ion-icon {
+        font-size: 25px;
+        top: 4px;
+    }
+
+    body .button.button-outline.message-poster-button {
+        --padding-start: 15px;
+        --padding-end: 15px;
+        --padding-top: 10px;
+        --padding-bottom: 10px;
+    }
+
+    .post-details-title p {
+        margin-top: 0;
+        line-height: 1.2;
+    }
+
+    body .button.button-outline.message-poster-button span {
+        margin-left: 10px;
+    }
+
+    /* Post details end  */
+
+    /* Messaging start  */
+    .message-list .post-row {
+        padding: 5px;
+    }
+
+    /* Messaging end  */
+
+    /* Manage Request start  */
+    .manage-requests-content ion-segment-button {
+        flex: 0 0 33.33%;
+        --padding-start: 0;
+        --padding-end: 0;
+    }
+
+    /* Manage Request end  */
+
+    .manage-tenants-wrapper ion-segment-button {
+        flex: 0 0 33.33%;
+    }
+
+    .tab-button-wrap .notification-count {
+        right: 0;
+        top: -8px;
+    }
+}
+
+@media (min-width : 991px) and (max-width : 1128px) {
+    .tab-button-wrap ion-segment {
+
+        justify-content: space-around;
+    }
+
+}
+
+/* //bug fixes 19 jan :start */
+
+/* @media (max-width : 388px) {
+    .tenant-lease-info {
+        padding-top: 20px;
+    }
+}  */
+@media (max-width: 328px) {
+    div.first-block.start-date-block h6 {
+        padding-bottom: 24px;
+    }
+
+}
+
+@media(max-width : 366px) and (min-width : 328px) {
+    div.start-date-block h6 {
+        padding-bottom: 43px;
+    }
+
+    div.start-date-block.first-block h6 {
+        padding-bottom: 24px;
+    }
+}
+
+@media (max-width : 436px) {
+    .no-border {
+        width: 120px;
+    }
+
+    .change-property .proerty-name {
+        font-size: 10px;
+    }
+
+    .c {
+        width: 20px;
+        height: 20px;
+    }
+
+    .logo {
+        max-width: 20vw;
+    }
+
+    .item-native {
+        padding-left: 0px;
+    }
+
+    .item-inner {
+        padding-right: 0px;
+    }
+
+    .button-native {
+        padding: 0px 0px;
+    }
+
+    .inner-main-header {
+        padding: 5px 0px;
+    }
+
+    .inner-main-header ion-row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    body .button.back-buton {
+        margin-right: 0px;
+    }
+
+    .apart-logo {
+        margin: 0px;
+    }
+
+    .change-property-popup .popover-content:before {
+        right: 15px;
+    }
+}
+
+@media (max-width :636px) {
+
+    .start-date-block h6,
+    .end-date-block h6 {
+        padding-bottom: 24px;
+    }
+}
+
+@media (max-width :448px) {
+    .end-date-block h6 {
+        padding-bottom: 24px;
+    }
+
+    div.first-block h6 {
+        padding-bottom: 5px;
+    }
+}
+
+
+@media (max-width : 426px) {
+
+    .tab-button-wrap ion-segment {}
+
+    .tenants-lease-payment-info ion-col {
+        padding: 0px;
+    }
+
+    body .tenant-lease-details-info .native-input.sc-ion-input-md[readonly] {
+        font-size: 15px;
+    }
+
+    .message-list {
+        margin: 15px;
+    }
+
+    .search-result-box {
+        margin: 15px;
+
+
+    }
+
+    .paid-rents-list {
+        margin: 0 0px;
+    }
+
+    .swiper-slide {
+        display: block !important;
+    }
+
+    .g-recaptcha {
+        flex-direction: column;
+        align-items: flex-start;
+        transform: scale(0.80);
+        transform-origin: 0 0;
+    }
+
+    body .manage-posts-wrapper .button.button-clear.property-change-button {
+        bottom: 60px;
+        right: 55px
+    }
+
+    /* 
+  .button.button-clear  {
+    width: 50px;
+    height: 50px;
+   } */
+
+    .manage-tenants-wrapper ion-segment {
+        justify-content: space-evenly;
+    }
+
+    .manage-tenants-wrapper ion-segment-button {
+        flex: auto;
+    }
+
+    .tab-content {
+        padding: 0px;
+    }
+
+    .to-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    .manage-tenants-wrapper .dashboard-content-inner {
+        padding: 20px 0px 15px;
+    }
+
+    #ion-slide {
+        display: block;
+        font-size: 10px;
+    }
+
+    .rc-anchor-checkbox-label {
+        width: auto;
+    }
+
+    .rc-anchor-pt {
+        width: 220px;
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    body ion-select {
+        padding-top: 5px;
+        padding-right: 22%;
+        padding-left: 8px;
+        font-size: 11px;
+    }
+
+    .item-native {
+        padding-left: 0px;
+    }
+
+
+}
+
+/* bug fixes end  */
+
+@media (max-width: 375px) {
+
+    body .tenant-lease-details-info .native-input.sc-ion-input-md[readonly] {
+        font-size: 12px;
+    }
+
+    /* Tenants pay rents start  */
+    .rent-pay-buttons .button.button-round {
+        font-size: 14px;
+    }
+
+    /* Tenants pay rents end  */
+
+}
+
+
+@media (max-width: 320px) {
+
+    /* Header css start */
+    .header-page-title {
+        font-size: 16px;
+    }
+
+    /* Header css end */
+
+    /* footer css start */
+    .change-property-popup .button-inner ion-icon {
+        flex: 0 0 30px;
+        max-width: 30px;
+        margin-right: 3px;
+    }
+
+    /* footer css end */
+
+    /* Management Dashboard css start */
+    .change-property-popup-wrapper .user-select-item.item ion-label {
+        font-size: 16px;
+    }
+
+    .change-property-popup-wrapper .user-select-item ion-label p {
+        font-size: 14px;
+    }
+
+    /* Management Dashboard css end */
+
+    /* Manage tenants css start  */
+    .search-box .button.button-full {
+        max-width: 100px;
+    }
+
+    .search-box .button.button-full ion-icon {
+        flex: 0 0 25px;
+        max-width: 25px;
+        font-size: 25px;
+    }
+
+    .search-box ion-input.sc-ion-input-md-h {
+        margin: 0 10px;
+        flex: 0 0 80px;
+        max-width: 80px;
+    }
+
+    .search-box input.native-input.sc-ion-input-md {
+        font-size: 23px;
+        padding: 5px 15px;
+    }
+
+    /* Manage tenants css end  */
+
+    /* Lease info css start */
+    .dashboard-content .uploaded-file-name {
+        font-size: 14px;
+    }
+
+    /* Lease info css end */
+
+    /* Tenant Dahsboard posts start  */
+    .tenants-dashboard ion-segment-button {
+        font-size: 14px;
+        --padding-start: 10px;
+        --padding-end: 10px;
+    }
+
+    /* Tenant Dahsboard posts end  */
+}
